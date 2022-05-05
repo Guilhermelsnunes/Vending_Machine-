@@ -16,7 +16,7 @@ public abstract class Product {
         return name;
     }
 
-    public String brand(){
+    public String getBrand(){
         return brand;
     }
 
