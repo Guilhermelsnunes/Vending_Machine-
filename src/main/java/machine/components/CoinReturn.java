@@ -25,5 +25,5 @@ public class CoinReturn {
         return total;
     }
 
-    // missing the function to return change or reject if not enough money or reject wrong coins
+    // faltando return change or reject se tiver moeda errada ou a menos
 }
