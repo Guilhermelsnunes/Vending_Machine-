@@ -46,7 +46,7 @@ public class VendingMachine {
     }
 
 
-
+// sale!
     public Product vend(EnumCode enumCode){
         for (Drawer drawer : this.drawers){
             if(enumCode == drawer.getEnumCode() && this.credit >= drawer.getPrice()){
