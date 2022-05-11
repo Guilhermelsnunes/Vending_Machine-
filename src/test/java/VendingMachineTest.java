@@ -11,6 +11,7 @@ import products.Sweet;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 //import static com.sun.tools.classfile.Attribute.Code;
 
@@ -70,6 +71,22 @@ public class VendingMachineTest {
         assertEquals(0.00, machine.getCredit(),0.01);
     }
 
+    @Test
+    public void notEnoughMoneyReturnsNull(){
+        machine.addCoin(tenPence);
+        machine.addCoin(tenPence);
+        Sweet sweet = (Sweet)machine.vend(EnumCode.A1);
+        assertNull(sweet);
+    }
+
+    @Test
+    public void canGetChange(){
+        machine.addCoin(tenPence);
+        machine.addCoin(fiftyPence);
+        machine.addCoin(fivePence);
+        machine.returnChange();
+
+    }
 
 
 
