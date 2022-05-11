@@ -18,6 +18,8 @@ public class Drawer {
     }
 
 
+
+
     public EnumCode getEnumCode() {
         return enumCode;
     }

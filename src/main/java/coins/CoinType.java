@@ -7,9 +7,9 @@ public enum CoinType {
     FIVEPENCE(0.05),
     TENPENCE(0.1),
     TWENTYPENCE(0.2),
-    FIFTPENCE(0.5),
+    FIFTYPENCE(0.5),
     ONEPOUND(1.0),
-    TWOPOUND(2.0);
+    TWOPOUND(2.0),;
 
 
 //    name for the value
