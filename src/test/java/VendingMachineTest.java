@@ -9,7 +9,7 @@ import products.Sweet;
 
 import java.util.ArrayList;
 
-import static com.sun.tools.classfile.Attribute.Code;
+//import static com.sun.tools.classfile.Attribute.Code;
 
 public class VendingMachineTest {
 
